@@ -1,0 +1,27 @@
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .bookshelf {
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .book {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+    }
+    .book:last-child {
+      border-bottom: none;
+    }
+    .title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .author {
+      color: #555;
+    }
